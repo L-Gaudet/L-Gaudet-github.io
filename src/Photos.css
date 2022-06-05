@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.Photos-background {
+  padding-top:20%;
+  background-color: black;
+  text-align: center;
+  background-size: 100%;
+  background-size:cover;
+  display: flex;
+  /* height: 605vmin;
+  max-height: 640vh;
+  min-height: 1825px; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 200px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.Photos-header {
+  background-color: black;
+  background-size: 100%;
+  background-size: cover;
+  min-height: calc(100px + 10vmin);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 3vmin);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  top: 11%;
+}
+
+.Photos-links, .Photos-links:link, .Photos-links:visited{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin);
+  transition: 0.5s;
+  color: white;
+}
+
+/* .Photos-links:link, .Photos-links:visited {
+  font-size: calc(10px + 2vmin);
+  transition: 0.5s;
+  color: #ec95de;
+} */
+
+.Photos-links:hover {
+  opacity: 1;
+  transition: 0.5s;
+  color:rgb(212, 130, 197);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Page-title{
+  font-size: calc(22px + 5vmin);
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: calc(7px - 2vmin); 
+  /* margin-bottom: 5px; */
+}
+
+.Photos-title{
+  /* position: absolute; */
+  /* top: 12%; */
+  /* margin-top: 12%; */
+  margin-bottom: 70px;
+}
+
+.Photo-layout {
+  max-width: 70%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Photo{
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 50%;*/
+  padding-bottom: 50px; 
+  max-height: 100%;
+  max-width: 100%;
+  height: 50%;
+}
+
+/* @media (max-width: 80%){
+  .Photo-layout{
+    grid-row: span 6;
+    max-height: 50px;
+  }
+} */
+
+.Bio{
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.Photo-container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

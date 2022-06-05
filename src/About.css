@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.About-background {
+  background-image: url(sunsetCliffs.JPG);
+  background-size: 100%;
+  background-size:cover;
+  background-position-x: center;
+  min-height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.About-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 200px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .About-logo {
+    animation: About-logo-spin infinite 20s linear;
+  }
+} */
+
+.About-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: #444444;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.About-links, .About-links:link, .About-links:visited{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #444444;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  font-size: calc(10px + 2vmin);
+  transition: 0.5s;
+  color: #444444;
+}
+
+/* .About-links:link, .About-links:visited {
+  font-size: calc(10px + 2vmin);
+  transition: 0.5s;
+  color: #444444;
+} */
+
+.About-links:hover {
+  opacity: 1;
+  transition: 0.5s;
+  color:rgb(71, 122, 66);
+}
+
+.About-links.About-button{
+  font-weight: regular;
+}
+
+@keyframes About-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Title {
+  font-size: calc(20px + 5vmin);
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5px;
+}
+
+.AboutTitle {
+  position: absolute;
+  top: 12%;
+  margin-bottom: calc(15px + 2vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Bio {
+  margin-top: -15px;
+  margin-bottom: 15px;
+  /* margin-left: -30px;
+  margin-right: -30px; */
+  width: 870%;
+  font-size: 21.5px;
+  /* font-size: 80%; */
+  
+  color: white;
+}
+
+.Bio-background {
+  /* text-align: center;  */
+  /* align-items: center;  */
+  /* justify-content: center; */
+  /* position: relative; */
+  /* top: calc(50% - 10vh); */
+  display: flex;
+  width: 90%;
+  background-color: #444444;
+  opacity: 60%;
+  border-radius: 6px;
+  max-width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.Container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
