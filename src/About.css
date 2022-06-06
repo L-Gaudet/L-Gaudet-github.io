@@ -52,13 +52,24 @@
   color: #444444;
 }
 
+.Inbio-links, .Inbio-links:link, .Inbio-links:visited {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21.5px;
+  text-decoration: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  color: white;
+  transition: 0.5s;
+}
+
 /* .About-links:link, .About-links:visited {
   font-size: calc(10px + 2vmin);
   transition: 0.5s;
   color: #444444;
 } */
 
-.About-links:hover {
+.About-links:hover, .Inbio-links:hover {
   opacity: 1;
   transition: 0.5s;
   color:rgb(71, 122, 66);

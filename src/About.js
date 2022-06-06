@@ -16,27 +16,24 @@ function About() {
           <div className='Container'>
             <div className='Bio-background'>
               <p className='Bio'>
-                Hi, my name is Lucas Gaudet and I am a computer science major. 
-                I used to be a hockey player, but I now enjoy photography as a 
-                hobby. I am passionate about technology and its potential to 
-                change the world. I believe that computer science is the key 
-                to unlocking that potential and I am excited to be studying it. 
-                I am also excited to see where my career takes me and to use 
-                my skills to make a difference in the world.
+                hi, my name is Lucas Gaudet and I'm a computer science major living
+                in southern california. i used to play hockey, but transitioned to 
+                pursue my passion of science and technology. currently I've been interested
+                in ai/ml engineering, software engineering, and web/app development. 
+                <Link to="/Photos">
+                  <button className="Inbio-links">
+                    photography
+                  </button>
+                </Link>
+                is a hobby of mine, i carry a camera with me every day for 
+                whenever i see a cool shot. staying active is important to me, whether it
+                be tennis, basketball, hiking or biking I'm always looking for a fun way
+                to close the rings on my apple watch.
+                other activities i enjoy are watching hockey, playing games with friends, 
+                and spending time at cool cafes/coffee shops.
               </p>
             </div>
           </div> 
-          {/* <div className='Bio-background'>
-              <p className='Bio'>
-                Hi, my name is Lucas Gaudet and I am a computer science major. 
-                I used to be a hockey player, but I now enjoy photography as a 
-                hobby. I am passionate about technology and its potential to 
-                change the world. I believe that computer science is the key 
-                to unlocking that potential and I am excited to be studying it. 
-                I am also excited to see where my career takes me and to use 
-                my skills to make a difference in the world.
-              </p>
-            </div> */}
         </div>
       </header>
     </div>
