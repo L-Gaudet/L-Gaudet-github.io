@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb0442da.css",
+    "main.js": "/static/js/main.3d6b9ed1.js",
+    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/rocks.png": "/static/media/rocks.0ca80c5a333f5f5b62c5.png",
+    "static/media/sunsetCliffs.JPG": "/static/media/sunsetCliffs.96cf4e7219977727a61f.JPG",
+    "static/media/webParamountSign.jpg": "/static/media/webParamountSign.e7316d354b90d09b6b1d.jpg",
+    "index.html": "/index.html",
+    "main.cb0442da.css.map": "/static/css/main.cb0442da.css.map",
+    "main.3d6b9ed1.js.map": "/static/js/main.3d6b9ed1.js.map",
+    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb0442da.css",
+    "static/js/main.3d6b9ed1.js"
+  ]
+}
